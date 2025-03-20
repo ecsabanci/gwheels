@@ -1,10 +1,9 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
 import type { Vehicle } from '@/types/vehicle';
 import vehiclesData from '@/content/vehicles.json';
-import { CarFront, ChevronLeft, ChevronRight } from 'lucide-react';
+import { CarFront } from 'lucide-react';
 import { TagChip } from '@/components/TagChip';
 
 export default function ComparisonPage() {
@@ -24,13 +23,6 @@ export default function ComparisonPage() {
         });
     };
 
-    const scrollContainer = (direction: 'left' | 'right') => {
-        const container = document.getElementById('comparison-container');
-        if (container) {
-            const scrollAmount = direction === 'left' ? -container.offsetWidth : container.offsetWidth;
-            container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
-        }
-    };
 
     return (
         <div className="py-8">
