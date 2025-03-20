@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "@upstash/claps/style.css";
+
+.claps-share-content {
+  color: #000;
+}
+
+:root {
+  --background: #f8fafc;
+  --foreground: #1e293b;
+}
+
+[data-theme='dark'] {
+  --background: #111827;
+  --foreground: white;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+  background: linear-gradient(45deg, #10b981, #3b82f6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* display: inline-block; */
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: translateY(-1px);
+}
+
+.logo::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #10b981, #3b82f6);
+  filter: blur(20px);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+.logo:hover::before {
+  opacity: .1;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+::selection {
+  background-color: rgb(16 185 129 / 0.2); /* emerald-500 with opacity */
+  color: inherit;
+}
+
+.dark ::selection {
+  background-color: rgb(52 211 153 / 0.2); /* emerald-400 with opacity */
+  color: inherit;
+}

@@ -1,0 +1,1984 @@
+{
+    "vehicles": [
+        {
+            "id": "tesla-model-y-lr",
+            "brand": "Tesla",
+            "model": "Model Y",
+            "version": "Long Range",
+            "year": 2024,
+            "image": "https://res.cloudinary.com/dtu1u9edk/image/upload/v1741866021/Model-Y-2-Redesigned-Desktop_mbr7ej.avif",
+            "price": {
+                "amount": 2199000,
+                "currency": "TRY"
+            },
+            "warranty": {
+                "vehicle": {
+                    "years": 4,
+                    "kilometers": 80000
+                },
+                "battery": {
+                    "years": 8,
+                    "kilometers": 192000
+                },
+                "paint": 3,
+                "corrosion": 12
+            },
+            "specs": {
+                "range": {
+                    "wltp": 533,
+                    "unit": "km"
+                },
+                "battery": {
+                    "capacity": {
+                        "gross": 82,
+                        "net": 75,
+                        "unit": "kWh"
+                    },
+                    "type": "Lithium-ion",
+                    "architecture": "400V",
+                    "cooling": "liquid",
+                    "heating": true,
+                    "cellManufacturer": "Panasonic",
+                    "chemistry": "NCA"
+                },
+                "performance": {
+                    "acceleration": {
+                        "zeroToHundred": 5.0,
+                        "unit": "seconds"
+                    },
+                    "topSpeed": {
+                        "value": 217,
+                        "unit": "km/h"
+                    },
+                    "power": {
+                        "value": 384,
+                        "unit": "hp"
+                    },
+                    "torque": {
+                        "value": 493,
+                        "unit": "Nm"
+                    },
+                    "towingCapacity": {
+                        "value": 1600,
+                        "unit": "kg"
+                    },
+                    "roofLoad": {
+                        "value": 75,
+                        "unit": "kg"
+                    }
+                },
+                "charging": {
+                    "maxAC": {
+                        "value": 11,
+                        "unit": "kW"
+                    },
+                    "maxDC": {
+                        "value": 250,
+                        "unit": "kW"
+                    },
+                    "timeToCharge": {
+                        "value": "30",
+                        "description": "10% to 80% at max DC"
+                    },
+                    "port": {
+                        "type": [
+                            "Type 2",
+                            "CCS2"
+                        ],
+                        "location": "left rear",
+                        "dualPorts": false
+                    },
+                    "preconditioning": true,
+                    "scheduling": true
+                },
+                "dimensions": {
+                    "length": 4751,
+                    "width": 1921,
+                    "height": 1624,
+                    "wheelbase": 2890,
+                    "groundClearance": 167,
+                    "turningCircle": 11.6,
+                    "dragCoefficient": 0.23,
+                    "unit": "mm"
+                },
+                "cargo": {
+                    "trunk": {
+                        "value": 854,
+                        "unit": "liters"
+                    },
+                    "frunk": {
+                        "value": 117,
+                        "unit": "liters"
+                    }
+                },
+                "tires": {
+                    "front": "255/45 R19",
+                    "rear": "255/45 R19"
+                }
+            },
+            "features": {
+                "heatPump": true,
+                "autopilot": true,
+                "vehicleToLoad": false,
+                "allWheelDrive": true,
+                "airSuspension": false,
+                "onePedalDriving": true,
+                "drivingModes": [
+                    "Chill",
+                    "Sport",
+                    "Standard"
+                ],
+                "regenerativeBrakingLevels": 2,
+                "wirelessCharging": true,
+                "mobileApp": true,
+                "otaUpdates": true,
+                "displays": {
+                    "main": {
+                        "size": 15.4,
+                        "resolution": "2200x1300"
+                    },
+                    "instrument": {
+                        "size": 0,
+                        "resolution": "N/A"
+                    }
+                },
+                "soundSystem": {
+                    "brand": "Tesla Premium",
+                    "speakers": 13,
+                    "power": 960
+                }
+            },
+            "safety": {
+                "ncapRating": 5,
+                "activeSafety": [
+                    "Otomatik Acil Frenleme",
+                    "Şerit Takip Asistanı",
+                    "Kör Nokta Uyarısı",
+                    "Adaptif Hız Sabitleyici",
+                    "360° Kamera",
+                    "Park Asistanı"
+                ],
+                "cameras": 8,
+                "sensors": {
+                    "radar": 1,
+                    "ultrasonic": 12,
+                    "lidar": false
+                },
+                "autonomyLevel": 2
+            },
+            "environmental": {
+                "productionCO2": 5900,
+                "recycledMaterials": 35,
+                "veganInterior": true,
+                "carbonFootprint": 65
+            },
+            "costs": {
+                "energyConsumption": {
+                    "value": 16.9,
+                    "unit": "kWh/100km"
+                },
+                "annualMaintenanceEstimate": {
+                    "amount": 3000,
+                    "currency": "TRY"
+                },
+                "insuranceCategory": "8",
+                "depreciationRate": 25
+            },
+            "colors": [
+                "Pearl White Multi-Coat",
+                "Solid Black",
+                "Midnight Silver Metallic",
+                "Deep Blue Metallic",
+                "Red Multi-Coat"
+            ]
+        },
+        {
+            "id": "tesla-model-y-sr",
+            "brand": "Tesla",
+            "model": "Model Y",
+            "version": "Short Range",
+            "year": 2024,
+            "image": "https://res.cloudinary.com/dtu1u9edk/image/upload/v1741866021/Model-Y-2-Redesigned-Desktop_mbr7ej.avif",
+            "price": {
+                "amount": 1899000,
+                "currency": "TRY"
+            },
+            "warranty": {
+                "vehicle": {
+                    "years": 4,
+                    "kilometers": 80000
+                },
+                "battery": {
+                    "years": 8,
+                    "kilometers": 192000
+                },
+                "paint": 3,
+                "corrosion": 12
+            },
+            "specs": {
+                "range": {
+                    "wltp": 455,
+                    "unit": "km"
+                },
+                "battery": {
+                    "capacity": {
+                        "gross": 62,
+                        "net": 57,
+                        "unit": "kWh"
+                    },
+                    "type": "Lithium-ion",
+                    "architecture": "400V",
+                    "cooling": "liquid",
+                    "heating": true,
+                    "cellManufacturer": "CATL",
+                    "chemistry": "LFP"
+                },
+                "performance": {
+                    "acceleration": {
+                        "zeroToHundred": 6.9,
+                        "unit": "seconds"
+                    },
+                    "topSpeed": {
+                        "value": 217,
+                        "unit": "km/h"
+                    },
+                    "power": {
+                        "value": 299,
+                        "unit": "hp"
+                    },
+                    "torque": {
+                        "value": 420,
+                        "unit": "Nm"
+                    },
+                    "towingCapacity": {
+                        "value": 1600,
+                        "unit": "kg"
+                    },
+                    "roofLoad": {
+                        "value": 75,
+                        "unit": "kg"
+                    }
+                },
+                "charging": {
+                    "maxAC": {
+                        "value": 11,
+                        "unit": "kW"
+                    },
+                    "maxDC": {
+                        "value": 170,
+                        "unit": "kW"
+                    },
+                    "timeToCharge": {
+                        "value": "33",
+                        "description": "10% to 80% at max DC"
+                    },
+                    "port": {
+                        "type": [
+                            "Type 2",
+                            "CCS2"
+                        ],
+                        "location": "left rear",
+                        "dualPorts": false
+                    },
+                    "preconditioning": true,
+                    "scheduling": true
+                },
+                "dimensions": {
+                    "length": 4751,
+                    "width": 1921,
+                    "height": 1624,
+                    "wheelbase": 2890,
+                    "groundClearance": 167,
+                    "turningCircle": 11.6,
+                    "dragCoefficient": 0.23,
+                    "unit": "mm"
+                },
+                "cargo": {
+                    "trunk": {
+                        "value": 854,
+                        "unit": "liters"
+                    },
+                    "frunk": {
+                        "value": 117,
+                        "unit": "liters"
+                    }
+                },
+                "tires": {
+                    "front": "255/45 R19",
+                    "rear": "255/45 R19"
+                }
+            },
+            "features": {
+                "heatPump": true,
+                "autopilot": true,
+                "vehicleToLoad": false,
+                "allWheelDrive": false,
+                "airSuspension": false,
+                "onePedalDriving": true,
+                "drivingModes": [
+                    "Chill",
+                    "Sport",
+                    "Standard"
+                ],
+                "regenerativeBrakingLevels": 2,
+                "wirelessCharging": true,
+                "mobileApp": true,
+                "otaUpdates": true,
+                "displays": {
+                    "main": {
+                        "size": 15.4,
+                        "resolution": "2200x1300"
+                    },
+                    "instrument": {
+                        "size": 0,
+                        "resolution": "N/A"
+                    }
+                },
+                "soundSystem": {
+                    "brand": "Tesla Premium",
+                    "speakers": 13,
+                    "power": 960
+                }
+            },
+            "safety": {
+                "ncapRating": 5,
+                "activeSafety": [
+                    "Otomatik Acil Frenleme",
+                    "Şerit Takip Asistanı",
+                    "Kör Nokta Uyarısı",
+                    "Adaptif Hız Sabitleyici",
+                    "360° Kamera",
+                    "Park Asistanı"
+                ],
+                "cameras": 8,
+                "sensors": {
+                    "radar": 1,
+                    "ultrasonic": 12,
+                    "lidar": false
+                },
+                "autonomyLevel": 2
+            },
+            "environmental": {
+                "productionCO2": 5900,
+                "recycledMaterials": 35,
+                "veganInterior": true,
+                "carbonFootprint": 65
+            },
+            "costs": {
+                "energyConsumption": {
+                    "value": 15.7,
+                    "unit": "kWh/100km"
+                },
+                "annualMaintenanceEstimate": {
+                    "amount": 3000,
+                    "currency": "TRY"
+                },
+                "insuranceCategory": "8",
+                "depreciationRate": 25
+            },
+            "colors": [
+                "Pearl White Multi-Coat",
+                "Solid Black",
+                "Midnight Silver Metallic",
+                "Deep Blue Metallic",
+                "Red Multi-Coat"
+            ]
+        },
+        {
+            "id": "kia-ev6",
+            "brand": "Kia",
+            "model": "EV6",
+            "version": "GT-Line AWD",
+            "year": 2024,
+            "image": "https://res.cloudinary.com/dtu1u9edk/image/upload/v1741866194/kia-ev6_ugwgpp.jpg",
+            "price": {
+                "amount": 2100000,
+                "currency": "TRY"
+            },
+            "warranty": {
+                "vehicle": {
+                    "years": 7,
+                    "kilometers": 150000
+                },
+                "battery": {
+                    "years": 7,
+                    "kilometers": 150000
+                },
+                "paint": 5,
+                "corrosion": 12
+            },
+            "specs": {
+                "range": {
+                    "wltp": 528,
+                    "unit": "km"
+                },
+                "battery": {
+                    "capacity": {
+                        "gross": 77.4,
+                        "net": 74.1,
+                        "unit": "kWh"
+                    },
+                    "type": "Lithium-ion",
+                    "architecture": "800V",
+                    "cooling": "liquid",
+                    "heating": true,
+                    "cellManufacturer": "SK Innovation",
+                    "chemistry": "NMC"
+                },
+                "performance": {
+                    "acceleration": {
+                        "zeroToHundred": 5.2,
+                        "unit": "seconds"
+                    },
+                    "topSpeed": {
+                        "value": 185,
+                        "unit": "km/h"
+                    },
+                    "power": {
+                        "value": 325,
+                        "unit": "hp"
+                    },
+                    "torque": {
+                        "value": 605,
+                        "unit": "Nm"
+                    },
+                    "towingCapacity": {
+                        "value": 1600,
+                        "unit": "kg"
+                    },
+                    "roofLoad": {
+                        "value": 80,
+                        "unit": "kg"
+                    }
+                },
+                "charging": {
+                    "maxAC": {
+                        "value": 11,
+                        "unit": "kW"
+                    },
+                    "maxDC": {
+                        "value": 350,
+                        "unit": "kW"
+                    },
+                    "timeToCharge": {
+                        "value": "18",
+                        "description": "10% to 80% at max DC"
+                    },
+                    "port": {
+                        "type": [
+                            "Type 2",
+                            "CCS2"
+                        ],
+                        "location": "right rear",
+                        "dualPorts": false
+                    },
+                    "preconditioning": true,
+                    "scheduling": true
+                },
+                "dimensions": {
+                    "length": 4680,
+                    "width": 1880,
+                    "height": 1550,
+                    "wheelbase": 2900,
+                    "groundClearance": 160,
+                    "turningCircle": 11.6,
+                    "dragCoefficient": 0.28,
+                    "unit": "mm"
+                },
+                "cargo": {
+                    "trunk": {
+                        "value": 520,
+                        "unit": "liters"
+                    },
+                    "frunk": {
+                        "value": 52,
+                        "unit": "liters"
+                    }
+                },
+                "tires": {
+                    "front": "235/55 R19",
+                    "rear": "235/55 R19"
+                }
+            },
+            "features": {
+                "heatPump": true,
+                "autopilot": true,
+                "vehicleToLoad": true,
+                "allWheelDrive": true,
+                "airSuspension": false,
+                "onePedalDriving": true,
+                "drivingModes": [
+                    "Eco",
+                    "Normal",
+                    "Sport",
+                    "GT"
+                ],
+                "regenerativeBrakingLevels": 3,
+                "wirelessCharging": true,
+                "mobileApp": true,
+                "otaUpdates": true,
+                "displays": {
+                    "main": {
+                        "size": 12.3,
+                        "resolution": "1920x1080"
+                    },
+                    "instrument": {
+                        "size": 12.3,
+                        "resolution": "1920x1080"
+                    },
+                    "hud": {
+                        "size": 12,
+                        "type": "Augmented Reality"
+                    }
+                },
+                "soundSystem": {
+                    "brand": "Meridian",
+                    "speakers": 14,
+                    "power": 640
+                }
+            },
+            "safety": {
+                "ncapRating": 5,
+                "activeSafety": [
+                    "Otomatik Acil Frenleme",
+                    "Şerit Takip Asistanı",
+                    "Kör Nokta Uyarısı",
+                    "Adaptif Hız Sabitleyici",
+                    "360° Kamera",
+                    "Park Asistanı",
+                    "Uzak Far Asistanı",
+                    "Trafik İşareti Tanıma"
+                ],
+                "cameras": 7,
+                "sensors": {
+                    "radar": 5,
+                    "ultrasonic": 12,
+                    "lidar": false
+                },
+                "autonomyLevel": 2
+            },
+            "environmental": {
+                "productionCO2": 6200,
+                "recycledMaterials": 30,
+                "veganInterior": true,
+                "carbonFootprint": 70
+            },
+            "costs": {
+                "energyConsumption": {
+                    "value": 17.2,
+                    "unit": "kWh/100km"
+                },
+                "annualMaintenanceEstimate": {
+                    "amount": 3500,
+                    "currency": "TRY"
+                },
+                "insuranceCategory": "9",
+                "depreciationRate": 30
+            },
+            "colors": [
+                "Moonscape Matte Gray",
+                "Snow White Pearl",
+                "Aurora Black Pearl",
+                "Runway Red",
+                "Yacht Blue",
+                "Urban Yellow"
+            ]
+        },
+        {
+            "id": "byd-seal-u",
+            "brand": "BYD",
+            "model": "Seal U",
+            "version": "Premium",
+            "year": 2024,
+            "image": "https://res.cloudinary.com/dtu1u9edk/image/upload/v1741866556/seal-u_y5ywhc.jpg",
+            "price": {
+                "amount": 1790000,
+                "currency": "TRY"
+            },
+            "specs": {
+                "range": {
+                    "wltp": 484,
+                    "unit": "km"
+                },
+                "battery": {
+                    "capacity": 87,
+                    "unit": "kWh",
+                    "type": "Blade LFP",
+                    "architecture": "400V"
+                },
+                "performance": {
+                    "acceleration": {
+                        "zeroToHundred": 7.3,
+                        "unit": "seconds"
+                    },
+                    "topSpeed": {
+                        "value": 175,
+                        "unit": "km/h"
+                    },
+                    "power": {
+                        "value": 218,
+                        "unit": "hp"
+                    }
+                },
+                "charging": {
+                    "maxAC": {
+                        "value": 11,
+                        "unit": "kW"
+                    },
+                    "maxDC": {
+                        "value": 140,
+                        "unit": "kW"
+                    },
+                    "timeToCharge": {
+                        "value": "37",
+                        "description": "20% to 80% at max DC"
+                    }
+                },
+                "dimensions": {
+                    "length": 4785,
+                    "width": 1890,
+                    "height": 1668,
+                    "wheelbase": 2765,
+                    "unit": "mm"
+                },
+                "cargo": {
+                    "trunk": {
+                        "value": 552,
+                        "unit": "liters"
+                    }
+                }
+            },
+            "features": {
+                "heatPump": true,
+                "autopilot": true,
+                "vehicleToLoad": true,
+                "allWheelDrive": false,
+                "airSuspension": false
+            }
+        },
+        {
+            "id": "volkswagen-id4",
+            "brand": "Volkswagen",
+            "model": "ID.4",
+            "version": "Pro",
+            "year": 2024,
+            "image": "https://res.cloudinary.com/dtu1u9edk/image/upload/v1741866557/vw-id4_xkzjwp.jpg",
+            "price": {
+                "amount": 2150000,
+                "currency": "TRY"
+            },
+            "specs": {
+                "range": {
+                    "wltp": 526,
+                    "unit": "km"
+                },
+                "battery": {
+                    "capacity": 77,
+                    "unit": "kWh",
+                    "type": "Lithium-ion",
+                    "architecture": "400V"
+                },
+                "performance": {
+                    "acceleration": {
+                        "zeroToHundred": 8.5,
+                        "unit": "seconds"
+                    },
+                    "topSpeed": {
+                        "value": 160,
+                        "unit": "km/h"
+                    },
+                    "power": {
+                        "value": 204,
+                        "unit": "hp"
+                    }
+                },
+                "charging": {
+                    "maxAC": {
+                        "value": 11,
+                        "unit": "kW"
+                    },
+                    "maxDC": {
+                        "value": 135,
+                        "unit": "kW"
+                    },
+                    "timeToCharge": {
+                        "value": "36",
+                        "description": "10% to 80% at max DC"
+                    }
+                },
+                "dimensions": {
+                    "length": 4584,
+                    "width": 1852,
+                    "height": 1631,
+                    "wheelbase": 2766,
+                    "unit": "mm"
+                },
+                "cargo": {
+                    "trunk": {
+                        "value": 543,
+                        "unit": "liters"
+                    }
+                }
+            },
+            "features": {
+                "heatPump": true,
+                "autopilot": true,
+                "vehicleToLoad": false,
+                "allWheelDrive": false,
+                "airSuspension": false
+            }
+        },
+        {
+            "id": "bmw-i4",
+            "brand": "BMW",
+            "model": "i4",
+            "version": "eDrive40",
+            "year": 2024,
+            "image": "https://res.cloudinary.com/dtu1u9edk/image/upload/v1741866558/bmw-i4_kj2mxp.jpg",
+            "price": {
+                "amount": 2850000,
+                "currency": "TRY"
+            },
+            "specs": {
+                "range": {
+                    "wltp": 590,
+                    "unit": "km"
+                },
+                "battery": {
+                    "capacity": 83.9,
+                    "unit": "kWh",
+                    "type": "Lithium-ion",
+                    "architecture": "400V"
+                },
+                "performance": {
+                    "acceleration": {
+                        "zeroToHundred": 5.7,
+                        "unit": "seconds"
+                    },
+                    "topSpeed": {
+                        "value": 190,
+                        "unit": "km/h"
+                    },
+                    "power": {
+                        "value": 340,
+                        "unit": "hp"
+                    }
+                },
+                "charging": {
+                    "maxAC": {
+                        "value": 11,
+                        "unit": "kW"
+                    },
+                    "maxDC": {
+                        "value": 200,
+                        "unit": "kW"
+                    },
+                    "timeToCharge": {
+                        "value": "31",
+                        "description": "10% to 80% at max DC"
+                    }
+                },
+                "dimensions": {
+                    "length": 4783,
+                    "width": 1852,
+                    "height": 1448,
+                    "wheelbase": 2856,
+                    "unit": "mm"
+                },
+                "cargo": {
+                    "trunk": {
+                        "value": 470,
+                        "unit": "liters"
+                    }
+                }
+            },
+            "features": {
+                "heatPump": true,
+                "autopilot": true,
+                "vehicleToLoad": false,
+                "allWheelDrive": false,
+                "airSuspension": true
+            }
+        },
+        {
+            "id": "mercedes-eqa",
+            "brand": "Mercedes",
+            "model": "EQA",
+            "version": "250+",
+            "year": 2024,
+            "image": "https://res.cloudinary.com/dtu1u9edk/image/upload/v1741866559/mercedes-eqa_qw3xnp.jpg",
+            "price": {
+                "amount": 2450000,
+                "currency": "TRY"
+            },
+            "specs": {
+                "range": {
+                    "wltp": 496,
+                    "unit": "km"
+                },
+                "battery": {
+                    "capacity": 70.5,
+                    "unit": "kWh",
+                    "type": "Lithium-ion",
+                    "architecture": "400V"
+                },
+                "performance": {
+                    "acceleration": {
+                        "zeroToHundred": 8.6,
+                        "unit": "seconds"
+                    },
+                    "topSpeed": {
+                        "value": 160,
+                        "unit": "km/h"
+                    },
+                    "power": {
+                        "value": 190,
+                        "unit": "hp"
+                    }
+                },
+                "charging": {
+                    "maxAC": {
+                        "value": 11,
+                        "unit": "kW"
+                    },
+                    "maxDC": {
+                        "value": 100,
+                        "unit": "kW"
+                    },
+                    "timeToCharge": {
+                        "value": "32",
+                        "description": "10% to 80% at max DC"
+                    }
+                },
+                "dimensions": {
+                    "length": 4463,
+                    "width": 1834,
+                    "height": 1620,
+                    "wheelbase": 2729,
+                    "unit": "mm"
+                },
+                "cargo": {
+                    "trunk": {
+                        "value": 340,
+                        "unit": "liters"
+                    }
+                }
+            },
+            "features": {
+                "heatPump": true,
+                "autopilot": true,
+                "vehicleToLoad": false,
+                "allWheelDrive": false,
+                "airSuspension": false
+            }
+        },
+        {
+            "id": "skoda-enyaq",
+            "brand": "Skoda",
+            "model": "Enyaq iV",
+            "version": "80",
+            "year": 2024,
+            "image": "https://res.cloudinary.com/dtu1u9edk/image/upload/v1741866560/skoda-enyaq_ph2xnq.jpg",
+            "price": {
+                "amount": 2050000,
+                "currency": "TRY"
+            },
+            "specs": {
+                "range": {
+                    "wltp": 545,
+                    "unit": "km"
+                },
+                "battery": {
+                    "capacity": 82,
+                    "unit": "kWh",
+                    "type": "Lithium-ion",
+                    "architecture": "400V"
+                },
+                "performance": {
+                    "acceleration": {
+                        "zeroToHundred": 8.7,
+                        "unit": "seconds"
+                    },
+                    "topSpeed": {
+                        "value": 160,
+                        "unit": "km/h"
+                    },
+                    "power": {
+                        "value": 204,
+                        "unit": "hp"
+                    }
+                },
+                "charging": {
+                    "maxAC": {
+                        "value": 11,
+                        "unit": "kW"
+                    },
+                    "maxDC": {
+                        "value": 135,
+                        "unit": "kW"
+                    },
+                    "timeToCharge": {
+                        "value": "29",
+                        "description": "10% to 80% at max DC"
+                    }
+                },
+                "dimensions": {
+                    "length": 4649,
+                    "width": 1879,
+                    "height": 1616,
+                    "wheelbase": 2765,
+                    "unit": "mm"
+                },
+                "cargo": {
+                    "trunk": {
+                        "value": 585,
+                        "unit": "liters"
+                    },
+                    "frunk": {
+                        "value": 0,
+                        "unit": "liters"
+                    }
+                }
+            },
+            "features": {
+                "heatPump": true,
+                "autopilot": true,
+                "vehicleToLoad": false,
+                "allWheelDrive": false,
+                "airSuspension": false
+            }
+        },
+        {
+            "id": "mini-cooper-se",
+            "brand": "Mini",
+            "model": "Cooper",
+            "version": "SE Electric",
+            "year": 2024,
+            "image": "https://res.cloudinary.com/dtu1u9edk/image/upload/v1741866561/mini-cooper-se_kf2xnq.jpg",
+            "price": {
+                "amount": 1950000,
+                "currency": "TRY"
+            },
+            "specs": {
+                "range": {
+                    "wltp": 305,
+                    "unit": "km"
+                },
+                "battery": {
+                    "capacity": 32.6,
+                    "unit": "kWh",
+                    "type": "Lithium-ion",
+                    "architecture": "400V"
+                },
+                "performance": {
+                    "acceleration": {
+                        "zeroToHundred": 7.3,
+                        "unit": "seconds"
+                    },
+                    "topSpeed": {
+                        "value": 150,
+                        "unit": "km/h"
+                    },
+                    "power": {
+                        "value": 184,
+                        "unit": "hp"
+                    }
+                },
+                "charging": {
+                    "maxAC": {
+                        "value": 11,
+                        "unit": "kW"
+                    },
+                    "maxDC": {
+                        "value": 50,
+                        "unit": "kW"
+                    },
+                    "timeToCharge": {
+                        "value": "36",
+                        "description": "10% to 80% at max DC"
+                    }
+                },
+                "dimensions": {
+                    "length": 3845,
+                    "width": 1727,
+                    "height": 1432,
+                    "wheelbase": 2495,
+                    "unit": "mm"
+                },
+                "cargo": {
+                    "trunk": {
+                        "value": 211,
+                        "unit": "liters"
+                    }
+                }
+            },
+            "features": {
+                "heatPump": true,
+                "autopilot": false,
+                "vehicleToLoad": false,
+                "allWheelDrive": false,
+                "airSuspension": false
+            }
+        },
+        {
+            "id": "renault-megane-e",
+            "brand": "Renault",
+            "model": "Megane",
+            "version": "E-Tech EV60",
+            "year": 2024,
+            "image": "https://res.cloudinary.com/dtu1u9edk/image/upload/v1741866562/renault-megane-e_xf2xnq.jpg",
+            "price": {
+                "amount": 1890000,
+                "currency": "TRY"
+            },
+            "specs": {
+                "range": {
+                    "wltp": 450,
+                    "unit": "km"
+                },
+                "battery": {
+                    "capacity": 60,
+                    "unit": "kWh",
+                    "type": "Lithium-ion",
+                    "architecture": "400V"
+                },
+                "performance": {
+                    "acceleration": {
+                        "zeroToHundred": 7.4,
+                        "unit": "seconds"
+                    },
+                    "topSpeed": {
+                        "value": 160,
+                        "unit": "km/h"
+                    },
+                    "power": {
+                        "value": 220,
+                        "unit": "hp"
+                    }
+                },
+                "charging": {
+                    "maxAC": {
+                        "value": 22,
+                        "unit": "kW"
+                    },
+                    "maxDC": {
+                        "value": 130,
+                        "unit": "kW"
+                    },
+                    "timeToCharge": {
+                        "value": "30",
+                        "description": "10% to 80% at max DC"
+                    }
+                },
+                "dimensions": {
+                    "length": 4200,
+                    "width": 1768,
+                    "height": 1505,
+                    "wheelbase": 2685,
+                    "unit": "mm"
+                },
+                "cargo": {
+                    "trunk": {
+                        "value": 440,
+                        "unit": "liters"
+                    }
+                }
+            },
+            "features": {
+                "heatPump": true,
+                "autopilot": true,
+                "vehicleToLoad": false,
+                "allWheelDrive": false,
+                "airSuspension": false
+            }
+        },
+        {
+            "id": "porsche-taycan",
+            "brand": "Porsche",
+            "model": "Taycan",
+            "version": "4S",
+            "year": 2024,
+            "image": "https://res.cloudinary.com/dtu1u9edk/image/upload/v1741866563/porsche-taycan.jpg",
+            "price": {
+                "amount": 4200000,
+                "currency": "TRY"
+            },
+            "specs": {
+                "range": {
+                    "wltp": 464,
+                    "unit": "km"
+                },
+                "battery": {
+                    "capacity": 93.4,
+                    "unit": "kWh",
+                    "type": "Lithium-ion",
+                    "architecture": "800V"
+                },
+                "performance": {
+                    "acceleration": {
+                        "zeroToHundred": 4.0,
+                        "unit": "seconds"
+                    },
+                    "topSpeed": {
+                        "value": 250,
+                        "unit": "km/h"
+                    },
+                    "power": {
+                        "value": 530,
+                        "unit": "hp"
+                    }
+                },
+                "charging": {
+                    "maxAC": {
+                        "value": 11,
+                        "unit": "kW"
+                    },
+                    "maxDC": {
+                        "value": 270,
+                        "unit": "kW"
+                    },
+                    "timeToCharge": {
+                        "value": "22",
+                        "description": "10% to 80% at max DC"
+                    }
+                },
+                "dimensions": {
+                    "length": 4963,
+                    "width": 1966,
+                    "height": 1379,
+                    "wheelbase": 2900,
+                    "unit": "mm"
+                },
+                "cargo": {
+                    "trunk": {
+                        "value": 366,
+                        "unit": "liters"
+                    }
+                }
+            },
+            "features": {
+                "heatPump": true,
+                "autopilot": true,
+                "vehicleToLoad": false,
+                "allWheelDrive": true,
+                "airSuspension": true
+            }
+        },
+        {
+            "id": "audi-q4-e-tron",
+            "brand": "Audi",
+            "model": "Q4 e-tron",
+            "version": "50 quattro",
+            "year": 2024,
+            "image": "https://res.cloudinary.com/dtu1u9edk/image/upload/v1741866564/audi-q4.jpg",
+            "price": {
+                "amount": 2300000,
+                "currency": "TRY"
+            },
+            "specs": {
+                "range": {
+                    "wltp": 520,
+                    "unit": "km"
+                },
+                "battery": {
+                    "capacity": 82,
+                    "unit": "kWh",
+                    "type": "Lithium-ion",
+                    "architecture": "400V"
+                },
+                "performance": {
+                    "acceleration": {
+                        "zeroToHundred": 6.2,
+                        "unit": "seconds"
+                    },
+                    "topSpeed": {
+                        "value": 180,
+                        "unit": "km/h"
+                    },
+                    "power": {
+                        "value": 299,
+                        "unit": "hp"
+                    }
+                },
+                "charging": {
+                    "maxAC": {
+                        "value": 11,
+                        "unit": "kW"
+                    },
+                    "maxDC": {
+                        "value": 125,
+                        "unit": "kW"
+                    },
+                    "timeToCharge": {
+                        "value": "35",
+                        "description": "10% to 80% at max DC"
+                    }
+                },
+                "dimensions": {
+                    "length": 4588,
+                    "width": 1865,
+                    "height": 1613,
+                    "wheelbase": 2764,
+                    "unit": "mm"
+                },
+                "cargo": {
+                    "trunk": {
+                        "value": 520,
+                        "unit": "liters"
+                    }
+                }
+            },
+            "features": {
+                "heatPump": true,
+                "autopilot": true,
+                "vehicleToLoad": false,
+                "allWheelDrive": true,
+                "airSuspension": false
+            }
+        },
+        {
+            "id": "hyundai-ioniq5",
+            "brand": "Hyundai",
+            "model": "IONIQ 5",
+            "version": "RWD",
+            "year": 2024,
+            "image": "https://res.cloudinary.com/dtu1u9edk/image/upload/v1741866565/hyundai-ioniq5.jpg",
+            "price": {
+                "amount": 1950000,
+                "currency": "TRY"
+            },
+            "specs": {
+                "range": {
+                    "wltp": 384,
+                    "unit": "km"
+                },
+                "battery": {
+                    "capacity": 58,
+                    "unit": "kWh",
+                    "type": "Lithium-ion",
+                    "architecture": "800V"
+                },
+                "performance": {
+                    "acceleration": {
+                        "zeroToHundred": 8.5,
+                        "unit": "seconds"
+                    },
+                    "topSpeed": {
+                        "value": 185,
+                        "unit": "km/h"
+                    },
+                    "power": {
+                        "value": 170,
+                        "unit": "hp"
+                    }
+                },
+                "charging": {
+                    "maxAC": {
+                        "value": 11,
+                        "unit": "kW"
+                    },
+                    "maxDC": {
+                        "value": 220,
+                        "unit": "kW"
+                    },
+                    "timeToCharge": {
+                        "value": "18",
+                        "description": "10% to 80% at max DC"
+                    }
+                },
+                "dimensions": {
+                    "length": 4635,
+                    "width": 1890,
+                    "height": 1605,
+                    "wheelbase": 3000,
+                    "unit": "mm"
+                },
+                "cargo": {
+                    "trunk": {
+                        "value": 527,
+                        "unit": "liters"
+                    },
+                    "frunk": {
+                        "value": 24,
+                        "unit": "liters"
+                    }
+                }
+            },
+            "features": {
+                "heatPump": true,
+                "autopilot": true,
+                "vehicleToLoad": true,
+                "allWheelDrive": false,
+                "airSuspension": false
+            }
+        },
+        {
+            "id": "hyundai-ioniq6",
+            "brand": "Hyundai",
+            "model": "IONIQ 6",
+            "version": "RWD",
+            "year": 2024,
+            "image": "https://res.cloudinary.com/dtu1u9edk/image/upload/v1741866566/hyundai-ioniq6.jpg",
+            "price": {
+                "amount": 2050000,
+                "currency": "TRY"
+            },
+            "specs": {
+                "range": {
+                    "wltp": 429,
+                    "unit": "km"
+                },
+                "battery": {
+                    "capacity": 53,
+                    "unit": "kWh",
+                    "type": "Lithium-ion",
+                    "architecture": "800V"
+                },
+                "performance": {
+                    "acceleration": {
+                        "zeroToHundred": 8.8,
+                        "unit": "seconds"
+                    },
+                    "topSpeed": {
+                        "value": 185,
+                        "unit": "km/h"
+                    },
+                    "power": {
+                        "value": 151,
+                        "unit": "hp"
+                    }
+                },
+                "charging": {
+                    "maxAC": {
+                        "value": 11,
+                        "unit": "kW"
+                    },
+                    "maxDC": {
+                        "value": 220,
+                        "unit": "kW"
+                    },
+                    "timeToCharge": {
+                        "value": "18",
+                        "description": "10% to 80% at max DC"
+                    }
+                },
+                "dimensions": {
+                    "length": 4855,
+                    "width": 1880,
+                    "height": 1495,
+                    "wheelbase": 2950,
+                    "unit": "mm"
+                },
+                "cargo": {
+                    "trunk": {
+                        "value": 401,
+                        "unit": "liters"
+                    },
+                    "frunk": {
+                        "value": 45,
+                        "unit": "liters"
+                    }
+                }
+            },
+            "features": {
+                "heatPump": true,
+                "autopilot": true,
+                "vehicleToLoad": true,
+                "allWheelDrive": false,
+                "airSuspension": false
+            }
+        },
+        {
+            "id": "kia-ev9",
+            "brand": "Kia",
+            "model": "EV9",
+            "version": "Earth",
+            "year": 2024,
+            "image": "https://res.cloudinary.com/dtu1u9edk/image/upload/v1741866567/kia-ev9.jpg",
+            "price": {
+                "amount": 3450000,
+                "currency": "TRY"
+            },
+            "specs": {
+                "range": {
+                    "wltp": 541,
+                    "unit": "km"
+                },
+                "battery": {
+                    "capacity": 99.8,
+                    "unit": "kWh",
+                    "type": "Lithium-ion",
+                    "architecture": "800V"
+                },
+                "performance": {
+                    "acceleration": {
+                        "zeroToHundred": 6.0,
+                        "unit": "seconds"
+                    },
+                    "topSpeed": {
+                        "value": 200,
+                        "unit": "km/h"
+                    },
+                    "power": {
+                        "value": 380,
+                        "unit": "hp"
+                    }
+                },
+                "charging": {
+                    "maxAC": {
+                        "value": 11,
+                        "unit": "kW"
+                    },
+                    "maxDC": {
+                        "value": 350,
+                        "unit": "kW"
+                    },
+                    "timeToCharge": {
+                        "value": "24",
+                        "description": "10% to 80% at max DC"
+                    }
+                },
+                "dimensions": {
+                    "length": 5015,
+                    "width": 1980,
+                    "height": 1755,
+                    "wheelbase": 3100,
+                    "unit": "mm"
+                },
+                "cargo": {
+                    "trunk": {
+                        "value": 828,
+                        "unit": "liters"
+                    },
+                    "frunk": {
+                        "value": 52,
+                        "unit": "liters"
+                    }
+                }
+            },
+            "features": {
+                "heatPump": true,
+                "autopilot": true,
+                "vehicleToLoad": true,
+                "allWheelDrive": true,
+                "airSuspension": true
+            }
+        },
+        {
+            "id": "togg-t10x",
+            "brand": "TOGG",
+            "model": "T10X",
+            "version": "V2 RWD",
+            "year": 2024,
+            "image": "https://res.cloudinary.com/dtu1u9edk/image/upload/v1741866568/togg-t10x.jpg",
+            "price": {
+                "amount": 1773000,
+                "currency": "TRY"
+            },
+            "specs": {
+                "range": {
+                    "wltp": 523,
+                    "unit": "km"
+                },
+                "battery": {
+                    "capacity": 88.5,
+                    "unit": "kWh",
+                    "type": "Lithium-ion",
+                    "architecture": "400V"
+                },
+                "performance": {
+                    "acceleration": {
+                        "zeroToHundred": 7.6,
+                        "unit": "seconds"
+                    },
+                    "topSpeed": {
+                        "value": 185,
+                        "unit": "km/h"
+                    },
+                    "power": {
+                        "value": 218,
+                        "unit": "hp"
+                    }
+                },
+                "charging": {
+                    "maxAC": {
+                        "value": 11,
+                        "unit": "kW"
+                    },
+                    "maxDC": {
+                        "value": 180,
+                        "unit": "kW"
+                    },
+                    "timeToCharge": {
+                        "value": "28",
+                        "description": "10% to 80% at max DC"
+                    }
+                },
+                "dimensions": {
+                    "length": 4775,
+                    "width": 1865,
+                    "height": 1620,
+                    "wheelbase": 2900,
+                    "unit": "mm"
+                },
+                "cargo": {
+                    "trunk": {
+                        "value": 573,
+                        "unit": "liters"
+                    }
+                }
+            },
+            "features": {
+                "heatPump": true,
+                "autopilot": true,
+                "vehicleToLoad": false,
+                "allWheelDrive": false,
+                "airSuspension": false
+            }
+        },
+        {
+            "id": "mini-countryman",
+            "brand": "Mini",
+            "model": "Countryman",
+            "version": "SE ALL4",
+            "year": 2024,
+            "image": "https://res.cloudinary.com/dtu1u9edk/image/upload/v1741866569/mini-countryman.jpg",
+            "price": {
+                "amount": 2450000,
+                "currency": "TRY"
+            },
+            "specs": {
+                "range": {
+                    "wltp": 433,
+                    "unit": "km"
+                },
+                "battery": {
+                    "capacity": 64.7,
+                    "unit": "kWh",
+                    "type": "Lithium-ion",
+                    "architecture": "400V"
+                },
+                "performance": {
+                    "acceleration": {
+                        "zeroToHundred": 5.7,
+                        "unit": "seconds"
+                    },
+                    "topSpeed": {
+                        "value": 180,
+                        "unit": "km/h"
+                    },
+                    "power": {
+                        "value": 313,
+                        "unit": "hp"
+                    }
+                },
+                "charging": {
+                    "maxAC": {
+                        "value": 11,
+                        "unit": "kW"
+                    },
+                    "maxDC": {
+                        "value": 130,
+                        "unit": "kW"
+                    },
+                    "timeToCharge": {
+                        "value": "30",
+                        "description": "10% to 80% at max DC"
+                    }
+                },
+                "dimensions": {
+                    "length": 4433,
+                    "width": 1844,
+                    "height": 1616,
+                    "wheelbase": 2692,
+                    "unit": "mm"
+                },
+                "cargo": {
+                    "trunk": {
+                        "value": 450,
+                        "unit": "liters"
+                    }
+                }
+            },
+            "features": {
+                "heatPump": true,
+                "autopilot": true,
+                "vehicleToLoad": false,
+                "allWheelDrive": true,
+                "airSuspension": false
+            }
+        },
+        {
+            "id": "tesla-model-3",
+            "brand": "Tesla",
+            "model": "Model 3",
+            "version": "Long Range",
+            "year": 2024,
+            "image": "https://res.cloudinary.com/dtu1u9edk/image/upload/v1741866570/tesla-model-3.jpg",
+            "price": {
+                "amount": 1650000,
+                "currency": "TRY"
+            },
+            "specs": {
+                "range": {
+                    "wltp": 629,
+                    "unit": "km"
+                },
+                "battery": {
+                    "capacity": 82,
+                    "unit": "kWh",
+                    "type": "Lithium-ion",
+                    "architecture": "400V"
+                },
+                "performance": {
+                    "acceleration": {
+                        "zeroToHundred": 4.4,
+                        "unit": "seconds"
+                    },
+                    "topSpeed": {
+                        "value": 233,
+                        "unit": "km/h"
+                    },
+                    "power": {
+                        "value": 434,
+                        "unit": "hp"
+                    }
+                },
+                "charging": {
+                    "maxAC": {
+                        "value": 11,
+                        "unit": "kW"
+                    },
+                    "maxDC": {
+                        "value": 250,
+                        "unit": "kW"
+                    },
+                    "timeToCharge": {
+                        "value": "25",
+                        "description": "10% to 80% at max DC"
+                    }
+                },
+                "dimensions": {
+                    "length": 4720,
+                    "width": 1933,
+                    "height": 1441,
+                    "wheelbase": 2875,
+                    "unit": "mm"
+                },
+                "cargo": {
+                    "trunk": {
+                        "value": 425,
+                        "unit": "liters"
+                    },
+                    "frunk": {
+                        "value": 88,
+                        "unit": "liters"
+                    }
+                }
+            },
+            "features": {
+                "heatPump": true,
+                "autopilot": true,
+                "vehicleToLoad": false,
+                "allWheelDrive": true,
+                "airSuspension": false
+            }
+        },
+        {
+            "id": "mercedes-eqe",
+            "brand": "Mercedes",
+            "model": "EQE",
+            "version": "350+",
+            "year": 2024,
+            "image": "https://res.cloudinary.com/dtu1u9edk/image/upload/v1741866571/mercedes-eqe.jpg",
+            "price": {
+                "amount": 3950000,
+                "currency": "TRY"
+            },
+            "specs": {
+                "range": {
+                    "wltp": 639,
+                    "unit": "km"
+                },
+                "battery": {
+                    "capacity": 90.6,
+                    "unit": "kWh",
+                    "type": "Lithium-ion",
+                    "architecture": "400V"
+                },
+                "performance": {
+                    "acceleration": {
+                        "zeroToHundred": 6.4,
+                        "unit": "seconds"
+                    },
+                    "topSpeed": {
+                        "value": 210,
+                        "unit": "km/h"
+                    },
+                    "power": {
+                        "value": 292,
+                        "unit": "hp"
+                    }
+                },
+                "charging": {
+                    "maxAC": {
+                        "value": 11,
+                        "unit": "kW"
+                    },
+                    "maxDC": {
+                        "value": 170,
+                        "unit": "kW"
+                    },
+                    "timeToCharge": {
+                        "value": "32",
+                        "description": "10% to 80% at max DC"
+                    }
+                },
+                "dimensions": {
+                    "length": 4946,
+                    "width": 1961,
+                    "height": 1512,
+                    "wheelbase": 3120,
+                    "unit": "mm"
+                },
+                "cargo": {
+                    "trunk": {
+                        "value": 430,
+                        "unit": "liters"
+                    }
+                }
+            },
+            "features": {
+                "heatPump": true,
+                "autopilot": true,
+                "vehicleToLoad": false,
+                "allWheelDrive": false,
+                "airSuspension": true
+            }
+        },
+        {
+            "id": "mercedes-eqb",
+            "brand": "Mercedes",
+            "model": "EQB",
+            "version": "350 4MATIC",
+            "year": 2024,
+            "image": "https://res.cloudinary.com/dtu1u9edk/image/upload/v1741866572/mercedes-eqb.jpg",
+            "price": {
+                "amount": 2850000,
+                "currency": "TRY"
+            },
+            "specs": {
+                "range": {
+                    "wltp": 423,
+                    "unit": "km"
+                },
+                "battery": {
+                    "capacity": 66.5,
+                    "unit": "kWh",
+                    "type": "Lithium-ion",
+                    "architecture": "400V"
+                },
+                "performance": {
+                    "acceleration": {
+                        "zeroToHundred": 6.2,
+                        "unit": "seconds"
+                    },
+                    "topSpeed": {
+                        "value": 160,
+                        "unit": "km/h"
+                    },
+                    "power": {
+                        "value": 292,
+                        "unit": "hp"
+                    }
+                },
+                "charging": {
+                    "maxAC": {
+                        "value": 11,
+                        "unit": "kW"
+                    },
+                    "maxDC": {
+                        "value": 100,
+                        "unit": "kW"
+                    },
+                    "timeToCharge": {
+                        "value": "32",
+                        "description": "10% to 80% at max DC"
+                    }
+                },
+                "dimensions": {
+                    "length": 4684,
+                    "width": 1834,
+                    "height": 1667,
+                    "wheelbase": 2829,
+                    "unit": "mm"
+                },
+                "cargo": {
+                    "trunk": {
+                        "value": 495,
+                        "unit": "liters"
+                    }
+                }
+            },
+            "features": {
+                "heatPump": true,
+                "autopilot": true,
+                "vehicleToLoad": false,
+                "allWheelDrive": true,
+                "airSuspension": false
+            }
+        },
+        {
+            "id": "volvo-ex30",
+            "brand": "Volvo",
+            "model": "EX30",
+            "version": "Single Motor Extended Range",
+            "year": 2024,
+            "image": "https://res.cloudinary.com/dtu1u9edk/image/upload/v1741866573/volvo-ex30.jpg",
+            "price": {
+                "amount": 1950000,
+                "currency": "TRY"
+            },
+            "specs": {
+                "range": {
+                    "wltp": 480,
+                    "unit": "km"
+                },
+                "battery": {
+                    "capacity": 69,
+                    "unit": "kWh",
+                    "type": "Lithium-ion",
+                    "architecture": "400V"
+                },
+                "performance": {
+                    "acceleration": {
+                        "zeroToHundred": 5.3,
+                        "unit": "seconds"
+                    },
+                    "topSpeed": {
+                        "value": 180,
+                        "unit": "km/h"
+                    },
+                    "power": {
+                        "value": 272,
+                        "unit": "hp"
+                    }
+                },
+                "charging": {
+                    "maxAC": {
+                        "value": 11,
+                        "unit": "kW"
+                    },
+                    "maxDC": {
+                        "value": 153,
+                        "unit": "kW"
+                    },
+                    "timeToCharge": {
+                        "value": "27",
+                        "description": "10% to 80% at max DC"
+                    }
+                },
+                "dimensions": {
+                    "length": 4233,
+                    "width": 1836,
+                    "height": 1555,
+                    "wheelbase": 2650,
+                    "unit": "mm"
+                },
+                "cargo": {
+                    "trunk": {
+                        "value": 318,
+                        "unit": "liters"
+                    },
+                    "frunk": {
+                        "value": 7,
+                        "unit": "liters"
+                    }
+                }
+            },
+            "features": {
+                "heatPump": true,
+                "autopilot": true,
+                "vehicleToLoad": false,
+                "allWheelDrive": false,
+                "airSuspension": false
+            }
+        },
+        {
+            "id": "volvo-ex90",
+            "brand": "Volvo",
+            "model": "EX90",
+            "version": "Twin Motor Performance",
+            "year": 2024,
+            "image": "https://res.cloudinary.com/dtu1u9edk/image/upload/v1741866574/volvo-ex90.jpg",
+            "price": {
+                "amount": 4150000,
+                "currency": "TRY"
+            },
+            "specs": {
+                "range": {
+                    "wltp": 585,
+                    "unit": "km"
+                },
+                "battery": {
+                    "capacity": 111,
+                    "unit": "kWh",
+                    "type": "Lithium-ion",
+                    "architecture": "400V"
+                },
+                "performance": {
+                    "acceleration": {
+                        "zeroToHundred": 4.9,
+                        "unit": "seconds"
+                    },
+                    "topSpeed": {
+                        "value": 180,
+                        "unit": "km/h"
+                    },
+                    "power": {
+                        "value": 517,
+                        "unit": "hp"
+                    }
+                },
+                "charging": {
+                    "maxAC": {
+                        "value": 11,
+                        "unit": "kW"
+                    },
+                    "maxDC": {
+                        "value": 250,
+                        "unit": "kW"
+                    },
+                    "timeToCharge": {
+                        "value": "30",
+                        "description": "10% to 80% at max DC"
+                    }
+                },
+                "dimensions": {
+                    "length": 5037,
+                    "width": 1964,
+                    "height": 1744,
+                    "wheelbase": 2985,
+                    "unit": "mm"
+                },
+                "cargo": {
+                    "trunk": {
+                        "value": 655,
+                        "unit": "liters"
+                    },
+                    "frunk": {
+                        "value": 37,
+                        "unit": "liters"
+                    }
+                }
+            },
+            "features": {
+                "heatPump": true,
+                "autopilot": true,
+                "vehicleToLoad": true,
+                "allWheelDrive": true,
+                "airSuspension": true
+            }
+        }
+    ]
+}
