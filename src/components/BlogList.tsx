@@ -27,12 +27,13 @@ export function BlogList({ posts }: BlogListProps) {
         link: `/posts/${post.id}`
     }));
 
-    // Görünür yazıları hesapla
-    const currentPosts = orderedPosts.slice(0, visiblePosts);
+    // Slider'da gösterilen haberler hariç diğer haberleri göster
+    const remainingPosts = orderedPosts.slice(3);
+    const currentPosts = remainingPosts.slice(0, visiblePosts);
 
     // Daha fazla yazı yükle
     const loadMore = () => {
-        setVisiblePosts(prev => Math.min(prev + POSTS_PER_PAGE, posts.length));
+        setVisiblePosts(prev => Math.min(prev + POSTS_PER_PAGE, remainingPosts.length));
     };
 
     return (
@@ -45,7 +46,6 @@ export function BlogList({ posts }: BlogListProps) {
                     </h2>
                     <Slider
                         items={latestPosts}
-                        aspectRatio="21/9"
                         showDots={true}
                         showArrows={true}
                         showTitle={true}
@@ -62,7 +62,7 @@ export function BlogList({ posts }: BlogListProps) {
             </div>
 
             {/* Load More Button */}
-            {visiblePosts < posts.length && (
+            {visiblePosts < remainingPosts.length && (
                 <div className="flex justify-center mt-8">
                     <button
                         onClick={loadMore}

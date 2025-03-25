@@ -15,7 +15,6 @@ export interface SlideItem {
 interface SliderProps {
     items: SlideItem[];
     title?: string;
-    aspectRatio?: string;
     showDots?: boolean;
     showArrows?: boolean;
     showTitle?: boolean;
@@ -25,7 +24,6 @@ interface SliderProps {
 export function Slider({
     items,
     title,
-    aspectRatio = "16/9",
     showDots = true,
     showArrows = true,
     showTitle = true,
@@ -61,20 +59,21 @@ export function Slider({
                 </h2>
             )}
 
-            <div className={`relative aspect-[${aspectRatio}] overflow-hidden rounded-lg border-2 border-gray-200 dark:border-gray-700 w-full`}>
+            <div className={`relative overflow-hidden rounded-lg border-2 border-gray-200 dark:border-gray-700 w-full h-[400px]`}>
                 <ContentWrapper
                     {...wrapperProps}
-                    className="relative w-full h-full"
+                    className="relative w-full h-full block"
                 >
-                    <Image
-                        src={items[currentIndex].image}
-                        alt={items[currentIndex].title}
-                        width={768}
-                        height={432}
-                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                        loading="lazy"
-                        className="object-cover w-full h-full"
-                    />
+                    <div className="relative w-full h-full">
+                        <Image
+                            src={items[currentIndex].image}
+                            alt={items[currentIndex].title}
+                            fill
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                            loading="lazy"
+                            className="object-cover"
+                        />
+                    </div>
                 </ContentWrapper>
 
                 {showArrows && items.length > 1 && (
