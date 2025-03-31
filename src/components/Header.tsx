@@ -12,7 +12,7 @@ const Header = () => {
         <div className="flex flex-col md:flex-row md:justify-between items-start gap-4">
           <Link href="/" className="text-4xl font-bold logo flex flex-col">
             <div className="flex items-center gap-1">
-              <BoltIcon className="w-8 h-8 text-emerald-500" />
+              <BoltIcon className="w-8 h-8 text-emerald-600" />
               <span>G-Wheels</span>
             </div>
             <span className='text-sm'>ev dünyasından haberler</span>
